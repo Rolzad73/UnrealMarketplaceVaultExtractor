@@ -1,0 +1,8 @@
+#670 items (2023-10-05)
+#18681.55 CAD = 13592.94 USD
+
+#(2025-05-31) 
+*815 by the library count
+*761 by json count
+#737 items by python script count 
+#24846.14 CAD = 18078.37 USD
