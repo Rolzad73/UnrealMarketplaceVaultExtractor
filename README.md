@@ -8,6 +8,10 @@ A script that generates a Markdown list of your [Unreal Marketplace](https://www
 
 ## How to use
 
+As of 2025-06-03, Selenium for Python is required to run this. Make sure to have selenium for python installed eg:
+
+```pip install selenium```
+
 Since your Vault is secured, the script can't request its data from Epic by itself. It requires some user input to get this data first.
 
 This is done by accessing the Marketplace API with your browser, and manually saving the results.
