@@ -1,4 +1,4 @@
-# Unreal Marketplace Vault Exctractor
+# Unreal Marketplace Vault Extractor
 
 A script that generates a Markdown list of your [Unreal Marketplace](https://www.unrealengine.com/marketplace/en-US/store) [Vault](https://www.unrealengine.com/marketplace/en-US/vault), plus some random stats (e.g. total value).
 
@@ -30,6 +30,6 @@ The Marketplace API only allows requesting Vault data by batches of 100 items, s
 * [800-900](https://www.unrealengine.com/marketplace/api/assets/vault?lang=en-US&start=800&count=100)
 * [900-1000](https://www.unrealengine.com/marketplace/api/assets/vault?lang=en-US&start=900&count=100)
 
-Once you've saved all the necessary `.json` files to the `data/` folder, simply run `mp_vault_extractor.py`. The process might take a while (~1s/product) as it needs to further request the Marketplace API for each product.
+Once you've saved all the necessary `.json` files to the `data/` folder, simply run `python mp_vault_extractor.py`. The process might take a while (~1s/product) as it needs to further request the Marketplace API for each product.
 
 After the process has finished, you'll find a `mp_vault_list.md` at the root of the project, which the list of all your Marketplace Vault products, plus some basic stats.
